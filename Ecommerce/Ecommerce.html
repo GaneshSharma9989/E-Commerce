@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css">
+</head>
+<body>
+    <!-- Top Bar Section -->
+    <section class="top-bar">
+        <div class="container">
+            <div class="top-text">
+                <p>Free shipping, 30-day return or refund guarantee.</p>
+            </div>
+            <div class="auth-links">
+                <a href="#sign-in">Sign In</a>
+                <a href="#sign-up">Sign Up</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="https://i.postimg.cc/TP6JjSTt/logo.webp" alt="Logo">
+            </div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </label>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#collection">Shop</a></li>
+                <li><a href="#news">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="tagline">SUMMER COLLECTION</p>
+                <h1>FALL - WINTER<br>Collection 2025</h1>
+                <p class="description">A specialist label creating luxury essentials. Ethically crafted with an unwavering commitment to exceptional quality.</p>
+                <a href="#collection" class="btn">Shop Now</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://i.postimg.cc/t403yfn9/home2.jpg" alt="Hero Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Collection Section -->
+    <section id="collection" class="collection">
+        <div class="container">
+            <h2>Our Collections</h2>
+            <div class="collection-grid">
+                <div class="collection-item">
+                    <img src="https://i.postimg.cc/Xqmwr12c/clothing.webp" alt="Clothing">
+                    <p>Clothing Collections</p>
+                    <a href="#shop" class="btn">Shop Now</a>
+                </div>
+                <div class="collection-item">
+                    <img src="https://i.postimg.cc/8CmBZH5N/shoes.webp" alt="Shoes">
+                    <p>Shoes Spring</p>
+                    <a href="#shop" class="btn">Shop Now</a>
+                </div>
+                <div class="collection-item">
+                    <img src="https://i.postimg.cc/MHv7KJYp/access.webp" alt="Accessories">
+                    <p>Accessories</p>
+                    <a href="#shop" class="btn">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="sellers" class="products">
+        <div class="container">
+            <h2>Top Sales</h2>
+            <div class="product-grid">
+                <!-- Product Card -->
+                <div class="product-card">
+                    <img src="https://i.postimg.cc/8CmBZH5N/shoes.webp" alt="Shoes">
+                    <p class="product-name">PS England Shoes</p>
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star'></i>
+                        <i class='bx bx-star'></i>
+                    </div>
+                    <p class="price">$37.24</p>
+                    <a href="#buy" class="btn">Buy Now</a>
+                </div>
+                <!-- Add similar product cards here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="news">
+        <div class="container">
+            <h2>Latest News</h2>
+            <div class="news-grid">
+                <div class="news-item">
+                    <img src="https://i.postimg.cc/2y6wbZCm/news1.jpg" alt="News">
+                    <h3>Fashion Trends 2023</h3>
+                    <p>Discover the latest trends in fashion with our exclusive insights.</p>
+                    <a href="#read-more" class="btn">Read More</a>
+                </div>
+                <!-- Add more news items as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Reach out with any questions or feedback.</p>
+            <div class="contact-form">
+                <form action="submit_form.php" method="post">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+     <!-- Footer Section -->
+     <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Fashion Store. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-pinterest'></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./Ecommerce.js"></script>
+<script>
